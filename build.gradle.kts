@@ -21,6 +21,7 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jobrunr:jobrunr-spring-boot-3-starter:7.3.1")
     developmentOnly("org.springframework.boot:spring-boot-docker-compose")
